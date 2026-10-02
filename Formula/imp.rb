@@ -1,28 +1,28 @@
 class Imp < Formula
   desc "CLI for impd: persistent Linux microVMs that sleep when idle"
   homepage "https://github.com/zgeoff/imp"
-  version "0.16.0"
+  version "0.17.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/zgeoff/imp/releases/download/v0.16.0/imp-darwin-arm64"
-      sha256 "2dc721bdf3cb11353d88abdbd097eaffe11532c635cc18fe3e72a5955f294f89"
+      url "https://github.com/zgeoff/imp/releases/download/v0.17.0/imp-darwin-arm64"
+      sha256 "8844bb51fc5fcddbe080748cd95e92e4aa792d37d89657ee84b8cf30931bb019"
     end
     on_intel do
-      url "https://github.com/zgeoff/imp/releases/download/v0.16.0/imp-darwin-x64"
-      sha256 "60a74596e39918b852f6e464be45d1247c0042a6814f61a75791eb5b08ce4033"
+      url "https://github.com/zgeoff/imp/releases/download/v0.17.0/imp-darwin-x64"
+      sha256 "fb6cab4d16cf49d5de4ad5057b144f3e48cc153d5e8e249768be67067c8f439c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zgeoff/imp/releases/download/v0.16.0/imp-linux-arm64"
-      sha256 "8cc3e63e13a2fc0dce0c46a463d8ae8cb7fa0c92b94fb56f0d6919df71c27289"
+      url "https://github.com/zgeoff/imp/releases/download/v0.17.0/imp-linux-arm64"
+      sha256 "d6cb1c857e555d6d40cd0931f63345a8303d8d67ea02ca791e86aa0e2cd39d03"
     end
     on_intel do
-      url "https://github.com/zgeoff/imp/releases/download/v0.16.0/imp-linux-x64"
-      sha256 "452e6a93fa3ef445f49e56bea6d1387c02d1e470169f28109c4852cb0edbb046"
+      url "https://github.com/zgeoff/imp/releases/download/v0.17.0/imp-linux-x64"
+      sha256 "4d64836c3cc4f6215fb004bc5572b0d2d8f01f73fe449780a36837af00bd5e6c"
     end
   end
 
