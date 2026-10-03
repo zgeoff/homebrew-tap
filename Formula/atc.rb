@@ -1,28 +1,28 @@
 class Atc < Formula
   desc "Terminal control tower for coding-agent sessions"
   homepage "https://github.com/zgeoff/atc"
-  version "2.20.0"
+  version "2.22.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/zgeoff/atc/releases/download/@zgeoff/atc@2.20.0/atc-darwin-arm64"
-      sha256 "f3a78e0b781918e34896dd1fc7012ddfa28cb3a851456ae69f4ca1ee0493e481"
+      url "https://github.com/zgeoff/atc/releases/download/@zgeoff/atc@2.22.0/atc-darwin-arm64"
+      sha256 "80f834fe1b22b5e6d0088c08577c40e5a788388c97d2d2f29f28e1c3e99c259e"
     end
     on_intel do
-      url "https://github.com/zgeoff/atc/releases/download/@zgeoff/atc@2.20.0/atc-darwin-x64"
-      sha256 "c6884e092825f433f561fff41e6347b26ba53eb3a79b6e3639e5c0341d56bfbb"
+      url "https://github.com/zgeoff/atc/releases/download/@zgeoff/atc@2.22.0/atc-darwin-x64"
+      sha256 "136101bff597154d748aea787a7e001acbfce7bf96542abe5e0aa7294bb1dfb2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zgeoff/atc/releases/download/@zgeoff/atc@2.20.0/atc-linux-arm64"
-      sha256 "c3a36bfd187ca078e34b513eede433ad919ffe878ca28f2b2ea5b6b560effb05"
+      url "https://github.com/zgeoff/atc/releases/download/@zgeoff/atc@2.22.0/atc-linux-arm64"
+      sha256 "20798a680d26ec5e635fdf04a4318d45b0802ab171aeaf0ff9af2d1c1efbd8ae"
     end
     on_intel do
-      url "https://github.com/zgeoff/atc/releases/download/@zgeoff/atc@2.20.0/atc-linux-x64"
-      sha256 "a6c8fc3d28b4386aa091dd27f2706df8dde8e913c92ea6b027507e4a0c7149db"
+      url "https://github.com/zgeoff/atc/releases/download/@zgeoff/atc@2.22.0/atc-linux-x64"
+      sha256 "67ea3ed4d792abdee4c515741389235f7ac1fd822610435cac9a1bd713cfe962"
     end
   end
 
