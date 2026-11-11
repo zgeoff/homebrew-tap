@@ -1,28 +1,28 @@
 class Slooks < Formula
   desc "Slack hooks daemon: run shell commands on Slack events, as you"
   homepage "https://github.com/zgeoff/slooks"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/zgeoff/slooks/releases/download/@zgeoff/slooks@0.2.0/slooks-darwin-arm64"
-      sha256 "041e7eff2435598a3853c8ff7e0499eda7e5fe6f536bbda32cfd32428d42f444"
+      url "https://github.com/zgeoff/slooks/releases/download/@zgeoff/slooks@0.2.1/slooks-darwin-arm64"
+      sha256 "fcaf6513f07c5dfbf2ec9ae40620874f3bbeea505e57434a38234d0f4d9eb2f1"
     end
     on_intel do
-      url "https://github.com/zgeoff/slooks/releases/download/@zgeoff/slooks@0.2.0/slooks-darwin-x64"
-      sha256 "335d9534f625158ba3500e59a29f7e695717016529526e7cff3565885723b58d"
+      url "https://github.com/zgeoff/slooks/releases/download/@zgeoff/slooks@0.2.1/slooks-darwin-x64"
+      sha256 "579f0bce1a733bd5f4277dc129045070988ba822eb116152c8db9901e07e6b05"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zgeoff/slooks/releases/download/@zgeoff/slooks@0.2.0/slooks-linux-arm64"
-      sha256 "310a80196bf8b973f61ff382dedf60674cc741c6dbe6d08356cba3b50b69e041"
+      url "https://github.com/zgeoff/slooks/releases/download/@zgeoff/slooks@0.2.1/slooks-linux-arm64"
+      sha256 "acaef181eaa8d38e54f796146a06cc449c31fdf04eaacc51355c00c39348a4f2"
     end
     on_intel do
-      url "https://github.com/zgeoff/slooks/releases/download/@zgeoff/slooks@0.2.0/slooks-linux-x64"
-      sha256 "117184a4dbcb00b811b3f148a1e158a6565c365810008997a296bfa38a4a06f6"
+      url "https://github.com/zgeoff/slooks/releases/download/@zgeoff/slooks@0.2.1/slooks-linux-x64"
+      sha256 "8cb36a2a55e1fabe6e5c010bab5c64a426f5a8d26b4ec51e09c5aac63d5f6c0f"
     end
   end
 
