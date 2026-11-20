@@ -1,28 +1,28 @@
 class Impz < Formula
   desc "CLI for impd: persistent Linux microVMs that sleep when idle"
   homepage "https://github.com/zgeoff/impz"
-  version "7.6.0"
+  version "7.6.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/zgeoff/impz/releases/download/v7.6.0/impz-darwin-arm64"
-      sha256 "2c8eb2dcda1281a3fb81b23969f352668d840af33ddc82ec91b35a370c2b9b43"
+      url "https://github.com/zgeoff/impz/releases/download/v7.6.1/impz-darwin-arm64"
+      sha256 "b77e8e4f515b089d0b00c488b22e77a56f3e999fb5e8acaade5c3541e8996a95"
     end
     on_intel do
-      url "https://github.com/zgeoff/impz/releases/download/v7.6.0/impz-darwin-x64"
-      sha256 "c3202ebf51457a5c35bdb156cc88a2794ad525e7b59f6f9caf2f488d78b3d52f"
+      url "https://github.com/zgeoff/impz/releases/download/v7.6.1/impz-darwin-x64"
+      sha256 "d67e0b8723a2a0e9a6606e730531eb5b90e8e0a34c29835d0115a083f37a855f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zgeoff/impz/releases/download/v7.6.0/impz-linux-arm64"
-      sha256 "a52cee4f12faf496d10ab85da1d4cb2b0ce47150f221dd7dc0a36247db7fb472"
+      url "https://github.com/zgeoff/impz/releases/download/v7.6.1/impz-linux-arm64"
+      sha256 "434870fa902ecc47be74405670740cafd13ce873b02746afe175ea369d8ef05c"
     end
     on_intel do
-      url "https://github.com/zgeoff/impz/releases/download/v7.6.0/impz-linux-x64"
-      sha256 "48f420d23d0ae0d767ebea97231044c04f2299af32a85567fbcf075856707b26"
+      url "https://github.com/zgeoff/impz/releases/download/v7.6.1/impz-linux-x64"
+      sha256 "a5b52d8988a0ca03894dc32af41e3ac9aaa6154e352d825d9d375a9f2c530c11"
     end
   end
 
