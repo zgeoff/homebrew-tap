@@ -1,28 +1,28 @@
 class Wherewerewe < Formula
   desc "Notes for one long agent session, read back as one brief"
   homepage "https://github.com/zgeoff/wherewerewe"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/zgeoff/wherewerewe/releases/download/@wherewerewe/cli@0.2.1/wherewerewe-darwin-arm64"
-      sha256 "56cf28c896e7c6a31329e66ffd5783c016d6c07ad24a34122d8ddeab45fd26b3"
+      url "https://github.com/zgeoff/wherewerewe/releases/download/@wherewerewe/cli@0.2.2/wherewerewe-darwin-arm64"
+      sha256 "7377a462a959234be6bc453468ae68c033519b2c8d5778620041e2d528836662"
     end
     on_intel do
-      url "https://github.com/zgeoff/wherewerewe/releases/download/@wherewerewe/cli@0.2.1/wherewerewe-darwin-x64"
-      sha256 "91f6c2872378810753ce23781907b091e753d5c4240371f7c4c17fc35df01f26"
+      url "https://github.com/zgeoff/wherewerewe/releases/download/@wherewerewe/cli@0.2.2/wherewerewe-darwin-x64"
+      sha256 "783216e66af64ddaa9371c55527ed279f1fbcc535c3ecd298e507e71634e4022"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zgeoff/wherewerewe/releases/download/@wherewerewe/cli@0.2.1/wherewerewe-linux-arm64"
-      sha256 "d2f070f5a1b9d123200b45c35cdcfcdddf46f5820571c79a00daa21821c74a40"
+      url "https://github.com/zgeoff/wherewerewe/releases/download/@wherewerewe/cli@0.2.2/wherewerewe-linux-arm64"
+      sha256 "c3fbbbb7ed417ddd20b84796899d67476e1b118be15a7e24ae74c28f47f717fe"
     end
     on_intel do
-      url "https://github.com/zgeoff/wherewerewe/releases/download/@wherewerewe/cli@0.2.1/wherewerewe-linux-x64"
-      sha256 "8b7073684abc05d3038e3bb2279413e3e65536b88c7e7b9d5e821847e2add8f0"
+      url "https://github.com/zgeoff/wherewerewe/releases/download/@wherewerewe/cli@0.2.2/wherewerewe-linux-x64"
+      sha256 "c2e3ab5c93ef1296864c4d9333d771c958034a02bbf5652d9e76fc7c310c3d97"
     end
   end
 
